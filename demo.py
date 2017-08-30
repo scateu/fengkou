@@ -83,13 +83,18 @@ both = [
         "区块链",
         ]
 
-a = random.choice(prefix_only+both)
-b = random.choice(suffix_only+both)
-
-while a == b :
-    a = random.choice(prefix_only+both)
-    b = random.choice(suffix_only+both)
+def roll():
+    _prefix = prefix_only+both
+    _suffix = suffix_only+both
+    a = random.choice(_prefix)
+    b = random.choice(_suffix)
+    
+    while a == b :
+        a = random.choice(_prefix)
+        b = random.choice(_suffix)
+    return a+b
     
 
-print("%s%s"%(a,b),end=' ')
-
+#print("%s"%(a,b),end=' ')
+#print("%s即将成为下一个风口。"%(roll()),end=' ')
+print("随着%s的式微，以及%s的大潮落幕。%s即将成为下一个风口。"%(roll(),roll(),roll()))
