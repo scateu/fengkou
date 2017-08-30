@@ -65,5 +65,5 @@ while a == b :
     b = random.choice(suffix_only+both)
     
 
-print("%s%s"%(a,b))
+print("%s%s"%(a,b),end=' ')
 
