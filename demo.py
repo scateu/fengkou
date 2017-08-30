@@ -6,6 +6,7 @@ from __future__ import print_function
 import random
 
 prefix_only = [ 
+        "精准",
         "沉浸式",
         "透明",
         "扁平",
@@ -60,8 +61,7 @@ both = [
         "卷积神经网络",
         "民主设计",
         "传感网",
-        "智慧医疗",
-        "精准医疗",
+        "医疗",
         "无人机",
         "可穿戴",
         "机器人",
