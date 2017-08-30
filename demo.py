@@ -6,6 +6,7 @@ from __future__ import print_function
 import random
 
 prefix_only = [ 
+        "共享",
         "精准",
         "沉浸式",
         "透明",
@@ -49,6 +50,9 @@ both = [
         "机器学习",
         "跨平台",
         "安全水位",
+        "单车",
+        "能源",
+        "充电",
         "漏洞",
         "威胁",
         "计算",
