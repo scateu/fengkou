@@ -6,6 +6,7 @@ from __future__ import print_function
 import random
 
 prefix_only = [ 
+        "可逆",
         "全天候",
         "全方位",
         "共享",
@@ -46,6 +47,7 @@ prefix_only = [
         "大规模",
         "全面",
         "现代",
+        "理论",
 ]
 
 suffix_only = [
