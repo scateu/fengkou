@@ -6,6 +6,9 @@ from __future__ import print_function
 import random
 
 prefix_only = [ 
+        "热",
+        "冷",
+        "湿",
         "可逆",
         "全天候",
         "全方位",
@@ -82,6 +85,7 @@ suffix_only = [
         "名片",
         "正能量",
         "运营",
+        "自信",
 ]
 
 both = [
