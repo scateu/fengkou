@@ -10,7 +10,9 @@
 
 > 对这个浮夸的时代的无情鞭挞。
 
+
 # Demo
+
 
 ```bash
 python demo.py 
@@ -39,6 +41,9 @@ python demo.py
 
 随着投顾人机交互的式微，以及车联网芯片的大潮落幕。沉浸式等保即将成为下一个风口
 ```
+## Screenshot
+
+<https://asciinema.org/a/Uk449rowJVkEFUOrYP7tyA245>
 
 # TODO
 
