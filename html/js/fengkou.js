@@ -48,8 +48,13 @@ var p = prefix_only.concat(both);
 
 function createFloatingWords(n) {
    for (var i = 0; i < n; i++) {
+     a = p.randomElement()
+     b = s.randomElement()
+     while (a == b) {
+           b = s.randomElement();
+     }
      floatingWords.push(
-       new FloatingWord(p.randomElement()+s.randomElement())
+       new FloatingWord(a+b)
      );
    }
    console.log(floatingWords[0]);
