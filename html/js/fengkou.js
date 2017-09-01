@@ -9,7 +9,7 @@ var both = ["网格", "差分", "矩阵", "全息", "云", "拟态", "金融", "
 function FloatingWord(s) {
   this.pos = {
     x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height - 50
+    y: Math.random() * 0.96 * canvas.height + canvas.height * 0.02
   },
   this.speed = Math.random() * 4 + 2,
   this.font =  Math.round(Math.random() * 10 + 14) + "px sans-serif",
@@ -23,7 +23,7 @@ FloatingWord.prototype.update = function() {
   this.pos.x += this.speed;
   if (this.pos.x >= canvas.width) {
     this.pos.x = -this.width;
-    this.pos.y = Math.random() * canvas.height ;
+    this.pos.y = Math.random() * 0.96 * canvas.height + canvas.height * 0.02;
   }
   ctx.font = this.font;
   ctx.fillText(this.text, this.pos.x, this.pos.y);
