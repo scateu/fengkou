@@ -9,7 +9,7 @@ var both = ["网格", "差分", "矩阵", "全息", "云", "拟态", "金融", "
 function FloatingWord(s) {
   this.pos = {
     x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height - 30
+    y: Math.random() * canvas.height - 50
   },
   this.speed = Math.random() * 4 + 2,
   this.font =  Math.round(Math.random() * 10 + 14) + "px sans-serif",
