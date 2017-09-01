@@ -1,0 +1,12 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  background-color: #21D497;
+  min-height: 100%;
+}
+
+#canvas {
+  z-index: -1;
+  background-image: #21D497;
+}

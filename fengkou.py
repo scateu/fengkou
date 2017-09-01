@@ -181,7 +181,17 @@ def roll():
         b = random.choice(_suffix)
     return a+b
     
+def generate_all():
+    r = []
+    for i in prefix_only+both:
+        for j in suffix_only+both:
+            if i != j:
+                r.append("%s%s"%(i,j))
+    random.shuffle(r)         
+    for _ in r:
+        print("\'%s\', "%(_),end=' ')
 
-print("%s"%(roll()))
-#print("%s即将成为下一个风口。"%(roll()),end=' ')
-#print("随着%s的式微，以及%s的大潮落幕。%s即将成为下一个风口。"%(roll(),roll(),roll()))
+if __name__ == "__main__":
+    print("%s"%(roll()))
+    #print("%s即将成为下一个风口。"%(roll()),end=' ')
+    #print("随着%s的式微，以及%s的大潮落幕。%s即将成为下一个风口。"%(roll(),roll(),roll()))
